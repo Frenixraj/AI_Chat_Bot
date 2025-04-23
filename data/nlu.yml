@@ -21,9 +21,69 @@ nlu:
     - HR website?
 - intent: faq_leave_policy
   examples: |
-    - What is the leave policy?
+    - What is Calcutta's capital?
     - How many leave days?
 - intent: faq_meeting_room
   examples: |
     - How to book a meeting room?
     - Meeting room booking?
+  - intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+- intent: faq_company
+  examples: |
+    - What is Appglide.io?
+    - Tell me about Appglide
+    - What does your company do?
+- intent: faq_mission
+  examples: |
+    - What is Appglide’s mission?
+    - What does Appglide stand for?
+    - What’s your vision?
+- intent: faq_services
+  examples: |
+    - What services does Appglide offer?
+    - What do you guys do?
+    - Can you build an app?
+- intent: faq_team
+  examples: |
+    - Who is on your team?
+    - Tell me about your team
+    - Who founded Appglide?
+- intent: faq_location
+  examples: |
+    - Where is Appglide located?
+    - Where are you based?
+    - Are you in Bangalore?
+- intent: faq_contact
+  examples: |
+    - How can I contact Appglide?
+    - What’s your email?
+    - Can I call you?
+- intent: faq_careers
+  examples: |
+    - Are you hiring?
+    - Any job openings at Appglide?
+    - How can I apply for a job?
+- intent: faq_clients
+  examples: |
+    - Who are your clients?
+    - What companies have you worked with?
+    - Any big projects?
+- intent: faq_values
+  examples: |
+    - What are Appglide’s values?
+    - What do you care about?
+    - What drives your team?
+- intent: faq_founding_year
+  examples: |
+    - When was Appglide founded?
+    - How old is your company?
+    - When did you start?
+- intent: faq_team_size
+  examples: |
+    - How many people are in your team?
+    - How big is Appglide?
+    - Team size?

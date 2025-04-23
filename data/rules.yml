@@ -24,3 +24,51 @@ rules:
   steps:
   - intent: faq_meeting_room
   - action: utter_meeting_room
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+- rule: Answer company info
+  steps:
+  - intent: faq_company
+  - action: utter_company
+- rule: Answer mission
+  steps:
+  - intent: faq_mission
+  - action: utter_mission
+- rule: Answer services
+  steps:
+  - intent: faq_services
+  - action: utter_services
+- rule: Answer team info
+  steps:
+  - intent: faq_team
+  - action: utter_team
+- rule: Answer location
+  steps:
+  - intent: faq_location
+  - action: utter_location
+- rule: Answer contact
+  steps:
+  - intent: faq_contact
+  - action: utter_contact
+- rule: Answer careers
+  steps:
+  - intent: faq_careers
+  - action: utter_careers
+- rule: Answer clients
+  steps:
+  - intent: faq_clients
+  - action: utter_clients
+- rule: Answer values
+  steps:
+  - intent: faq_values
+  - action: utter_values
+- rule: Answer founding year
+  steps:
+  - intent: faq_founding_year
+  - action: utter_founding_year
+- rule: Answer team size
+  steps:
+  - intent: faq_team_size
+  - action: utter_team_size
