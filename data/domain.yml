@@ -3,6 +3,9 @@ intents:
   - greet
   - faq_office_hours
   - faq_password
+  - faq_hr_portal
+  - faq_leave_policy
+  - faq_meeting_room
 responses:
   utter_greet:
     - text: "Hello! How can I help you today?"
@@ -10,3 +13,12 @@ responses:
     - text: "Office hours are 9 AM to 5 PM."
   utter_password:
     - text: "Contact IT at it@company.com to reset your password."
+  utter_hr_portal:
+    - text: "Access the HR portal at hr.company.com."
+  utter_leave_policy:
+    - text: "Refer to HR handbook section 4.2 for leave policy."
+  utter_meeting_room:
+    - text: "Use the portal at rooms.company.com to book a meeting room."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

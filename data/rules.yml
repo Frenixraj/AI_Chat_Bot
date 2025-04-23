@@ -12,3 +12,15 @@ rules:
   steps:
   - intent: faq_password
   - action: utter_password
+- rule: Answer HR portal
+  steps:
+  - intent: faq_hr_portal
+  - action: utter_hr_portal
+- rule: Answer leave policy
+  steps:
+  - intent: faq_leave_policy
+  - action: utter_leave_policy
+- rule: Answer meeting room
+  steps:
+  - intent: faq_meeting_room
+  - action: utter_meeting_room

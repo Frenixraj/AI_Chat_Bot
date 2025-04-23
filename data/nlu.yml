@@ -4,11 +4,26 @@ nlu:
   examples: |
     - hi
     - hello
+    - hey
 - intent: faq_office_hours
   examples: |
     - What are office hours?
     - Office timings?
+    - When is the office open?
 - intent: faq_password
   examples: |
     - How to reset password?
     - Password reset process?
+    - Forgot my password
+- intent: faq_hr_portal
+  examples: |
+    - Where is the HR portal?
+    - HR website?
+- intent: faq_leave_policy
+  examples: |
+    - What is the leave policy?
+    - How many leave days?
+- intent: faq_meeting_room
+  examples: |
+    - How to book a meeting room?
+    - Meeting room booking?
