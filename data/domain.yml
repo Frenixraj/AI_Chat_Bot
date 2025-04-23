@@ -6,19 +6,54 @@ intents:
   - faq_hr_portal
   - faq_leave_policy
   - faq_meeting_room
+  - faq_company
+  - faq_mission
+  - faq_services
+  - faq_team
+  - faq_location
+  - faq_contact
+  - faq_careers
+  - faq_clients
+  - faq_values
+  - faq_founding_year
+  - faq_team_size
 responses:
   utter_greet:
     - text: "Hello! How can I help you today?"
   utter_office_hours:
     - text: "Office hours are 9 AM to 5 PM."
   utter_password:
-    - text: "Contact IT at it@company.com to reset your password."
+    - text: "Contact IT at it@appglide.com to reset your password."
   utter_hr_portal:
     - text: "Access the HR portal at hr.company.com."
   utter_leave_policy:
-    - text: "Refer to HR handbook section 4.2 for leave policy."
+    - text: "Refer to HR for leave policy."
   utter_meeting_room:
-    - text: "Use the portal at rooms.company.com to book a meeting room."
+    - text: "Use the portal at rooms@appglide.com to book a meeting room."
+  utter_greet:
+    - text: "Hello! I’m here to answer your questions about Appglide.io. How can I help?"
+  utter_company:
+    - text: "Appglide.io is a tech startup founded in 2023, specializing in web and mobile app development, UI/UX design, and AI solutions."
+  utter_mission:
+    - text: "Our mission is to create seamless, innovative digital experiences that empower businesses and delight users."
+  utter_services:
+    - text: "We offer custom web and mobile app development, UI/UX design, and AI integration, including chatbots and automation tools."
+  utter_team:
+    - text: "Appglide has a team of 10, including founders [Your Name] and Maya Rao, along with senior developer Arjun Patel and AI specialist Priya Sharma."
+  utter_location:
+    - text: "We’re based in Bangalore, India, but operate as a remote-first team."
+  utter_contact:
+    - text: "You can reach us at contact@appglide.io or call us at +91-98765-43210."
+  utter_careers:
+    - text: "Yes, we’re hiring for a junior developer and a marketing specialist. Apply at careers@appglide.io."
+  utter_clients:
+    - text: "We’ve worked with startups like FoodieApp and EduLearn, focusing on education and food tech."
+  utter_values:
+    - text: "We value innovation, user-centric design, and collaboration in everything we do."
+  utter_founding_year:
+    - text: "Appglide.io was founded in 2023."
+  utter_team_size:
+    - text: "We have a team of 40+ passionate members, including developers, designers, and AI specialists."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
