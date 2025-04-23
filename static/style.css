@@ -1,0 +1,14 @@
+#chatbox {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+.user-message {
+    text-align: right;
+    color: blue;
+    margin: 5px;
+}
+.bot-message {
+    text-align: left;
+    color: green;
+    margin: 5px;
+}

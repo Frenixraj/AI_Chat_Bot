@@ -1,0 +1,12 @@
+version: "3.1"
+intents:
+  - greet
+  - faq_office_hours
+  - faq_password
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+  utter_office_hours:
+    - text: "Office hours are 9 AM to 5 PM."
+  utter_password:
+    - text: "Contact IT at it@company.com to reset your password."

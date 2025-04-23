@@ -1,0 +1,14 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+- intent: faq_office_hours
+  examples: |
+    - What are office hours?
+    - Office timings?
+- intent: faq_password
+  examples: |
+    - How to reset password?
+    - Password reset process?
